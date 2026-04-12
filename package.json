@@ -1,0 +1,40 @@
+{
+  "name": "agent-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env.local src/index.ts",
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "ingest:metric-definitions": "tsx --env-file=.env.local competitor-intel/scripts/ingestMetricDefinitions.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^1.38.0",
+    "@napi-rs/canvas": "^0.1.97",
+    "@openai/agents": "^0.8.3",
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.103.0",
+    "express": "^5.2.1",
+    "langfuse": "^3.38.20",
+    "openai": "^6.17.0",
+    "pdfjs-dist": "^5.6.205",
+    "pino": "^10.3.1",
+    "pino-http": "^11.0.0",
+    "redis": "^5.11.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.1.0",
+    "tsx": "^4.15.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.4"
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "canonical_key": "epra_nrv",
+    "definition_text": "Eget kapital med återläggning av verkligt värde på derivat, uppskjuten skatt och goodwill associerad med uppskjuten skatt, beräknad per aktie.",
+    "language": "sv"
+  },
+  {
+    "canonical_key": "epra_nrv",
+    "definition_text": "Eget kapital per aktie med återläggning av verkligt värde på derivat, uppskjuten skatt och goodwill associerad med uppskjuten skatt, beräknat per aktie.",
+    "language": "sv"
+  },
+  {
+    "canonical_key": "epra_nrv",
+    "definition_text": "Equity per share with reversal of the fair value of derivatives, deferred taxes and goodwill associated with the deferred tax, calculated per share.",
+    "language": "en"
+  },
+  {
+    "canonical_key": "epra_nrv",
+    "definition_text": "Redovisat eget kapital med återläggning av beslutad ej verkställd utdelning, goodwill, derivat och uppskjuten skatt, dividerat med antal utestående aktier vid periodens utgång.",
+    "language": "sv"
+  },
+  {
+    "canonical_key": "epra_nrv",
+    "definition_text": "Eget kapital med återläggning av derivat och uppskjuten skatt hänförlig till värdeförändringar på fastigheter och derivat.",
+    "language": "sv"
+  },
+  {
+    "canonical_key": "epra_nrv",
+    "definition_text": "Eget kapital med återläggning av derivat och uppskjuten skatt.",
+    "language": "sv"
+  },
+  {
+    "canonical_key": "epra_nrv",
+    "definition_text": "Equity, excluding hybrid bonds, with reversal of derivatives, deferred tax and unpaid dividends, in cases where the record date has not yet passed, divided by the number of shares outstanding.",
+    "language": "en"
+  },
+  {
+    "canonical_key": "epra_nrv",
+    "definition_text": "Redovisat eget kapital, efter hänsyn tagits till preferenskapitalet och innehav utan bestämmande inflytande, med återläggning av derivat och uppskjuten skatt, i förhållande till antalet stamaktier vid periodens utgång.",
+    "language": "sv"
+  },
+  {
+    "canonical_key": "epra_nrv",
+    "definition_text": "Eget kapital exklusive hybridobligationer med återläggning av derivat, uppskjuten skatt och ej utbetald utdelning i de fall avstämningsdagen ej har passerats, dividerat med antal utestående aktier.",
+    "language": "sv"
+  }
+]
