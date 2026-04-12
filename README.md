@@ -77,10 +77,4 @@ orchestrator.ts          4-phase pipeline; threads TraceCtx through every call
 └── harness.ts           Generic retry wrapper with confidence-ranked best-result tracking
 ```
 
-## Tests
-
-```bash
-npm test
-```
-
 Covers: retry harness, keyword search utilities & metric normalisation.
