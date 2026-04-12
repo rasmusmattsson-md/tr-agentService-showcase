@@ -287,7 +287,7 @@
 
 
 
-import { normalizeUrl } from "../../../competitor-intel-old/utils/tools";
+import { normalizeUrl } from "../../../competitor-intel/utils";
 import OpenAI from "openai";
 
 /* ================= TYPES ================= */

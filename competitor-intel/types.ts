@@ -67,6 +67,7 @@ export interface CompanyInput {
 export interface RunContext {
   asOfDate?: string | null;
   traceId?: string | null;
+  parentSpanId?: string | null;
   parentLangfuseObservationId?: string | null;
   conversationId?: string | null;
   agentId?: string | null;
