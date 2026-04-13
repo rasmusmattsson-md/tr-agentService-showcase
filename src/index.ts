@@ -151,6 +151,6 @@ app.get("/health", (_req, res) => {
 });
 
 const PORT = Number(process.env.PORT ?? 3002);
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   logger.info({ event: "service.started", port: PORT }, "service.started");
 });
